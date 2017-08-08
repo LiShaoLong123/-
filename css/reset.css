@@ -1,0 +1,27 @@
+/*
+清除浏览器默认样式
+*/
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+ul,ol,dl,li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:#333333;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+}
+/*总结：
+1.首先，body有默认的margin值
+2.然后，ul,ol,dl都会有内外边距，有默认的符号
+3.链接默认带有下划线，链接的颜色默认的是蓝色
+4.h1-h6默认的字体大小
+5.input/button默认都会有边距，会有内外边距
+*/
